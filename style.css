@@ -5,3 +5,8 @@
 .tab-content.active {
   display: block;
 }
+
+.tab-content::before {
+  content: 'List (' attr(data-count) ')';
+  display: block;
+}
