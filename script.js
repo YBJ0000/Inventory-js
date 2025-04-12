@@ -20,6 +20,7 @@ tabs.forEach(tab => {
 const listItems = document.querySelectorAll('li')
 listItems.forEach(item => {
   item.addEventListener('click', () => {
+    listItems.forEach(li => li.classList.remove('selected'))
     item.classList.toggle('selected')
   })
 })
