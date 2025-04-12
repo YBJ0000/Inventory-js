@@ -10,3 +10,40 @@
   content: 'List (' attr(data-count) ')';
   display: block;
 }
+
+h1 {
+  background-color: #b3b6ff;
+  padding: 15px;
+  margin: 0 0 20px 0;
+}
+
+.tabs {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  text-align: left;
+}
+
+.tab-btn.active {
+  background-color: #90EE90;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 2px 0;
+  background-color: #ddd;
+  cursor: pointer;
+}
