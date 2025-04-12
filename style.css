@@ -47,3 +47,7 @@ li {
   background-color: #ddd;
   cursor: pointer;
 }
+
+li.selected {
+  background-color: #90EE90;
+}
